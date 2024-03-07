@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+
+/* Variáveis */
+
+:root {
+    --fonteTitulo: "Montserrat", sans-serif;
+    --fontePadrao: "Poppins", sans-serif;
+
+    --corPrimaria: #0a1128;
+}
+
+/* CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--fontePadrao);
+    font-size: 1.6rem;
+    background-image: url(../img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--fonteTitulo);
+    font-weight: 900;
+}
