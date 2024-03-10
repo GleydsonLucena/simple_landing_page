@@ -51,35 +51,40 @@ h1, h2, h3, h4, h5, h6 {
 .main-header {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    align-items: center;
+    max-width: 1140px;
     margin: 0 auto;
+    padding: 10px 0;
 }
 
 .logo {
     width: 20%;
-    background: lightcoral;
 }
 
 .logo > p {
     font-family: var(--fonteTitulo);
     font-weight: 900;
+    font-size: 3rem;
 }
 
 .main-nav {
-    width: 50%;
-    background-color: lightblue;
+    width: 40%;
 }
 
 .main-nav ul, a{
     display: flex;
-    
+    justify-content: space-around;
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
 }
 
 .main-home {
     min-height: 100vh;
-    width: 1200px;
+    max-width: 1140px;
     margin: 0 auto;
 }
+
 
 
 
