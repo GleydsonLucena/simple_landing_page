@@ -40,41 +40,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-container {
-    max-width: 1200px;
+}
+
+.header-container {
+    width: 100vw;
     margin: 0 auto;
-    color: white;
+    background: #fff;
 }
 
 .main-header {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 30px 10px;
-    background: white;
-    color: black;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .logo {
-    width: 30%;
+    width: 20%;
+    background: lightcoral;
+}
+
+.logo > p {
+    font-family: var(--fonteTitulo);
+    font-weight: 900;
 }
 
 .main-nav {
     width: 50%;
-}
-
-.main-nav ul, a {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    color: black;
-    text-decoration: none;
-    list-style-type: none;
-    background: lightcoral;
-
+    background-color: lightblue;
 }
 
 .main-home {
     min-height: 100vh;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 
