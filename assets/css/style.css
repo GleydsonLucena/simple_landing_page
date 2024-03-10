@@ -39,12 +39,14 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 900;
 }
 
-.main-container {
-}
-
 .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100vw;
     margin: 0 auto;
+    border-bottom: 1px solid #eee;
     background: #fff;
 }
 
@@ -54,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10px 20px;
 }
 
 .logo {
@@ -64,19 +66,45 @@ h1, h2, h3, h4, h5, h6 {
 .logo > p {
     font-family: var(--fonteTitulo);
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2.3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 .main-nav {
     width: 40%;
+    font-size: 1.8rem;
 }
 
-.main-nav ul, a{
+.main-nav ul{
     display: flex;
     justify-content: space-around;
-    text-decoration: none;
-    list-style-type: none;
+    list-style: none;
     color: #000;
+}
+
+.main-nav ul li a {
+    position: relative;
+}
+
+.main-nav ul li a::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0.1rem;
+    border-radius: 20px;
+    background: crimson;
+    transition: all .5s ease-in-out;
+}
+
+.main-nav a:hover::after {
+    width: 50%;
+
 }
 
 .main-home {
