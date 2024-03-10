@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
     right: 0;
     width: 100vw;
     margin: 0 auto;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0.1rem solid #eee;
     background: #fff;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1140px;
+    max-width: 120rem;
     margin: 0 auto;
     padding: 10px 20px;
 }
@@ -97,7 +97,7 @@ a {
     left: 50%;
     width: 0;
     height: 0.1rem;
-    border-radius: 20px;
+    border-radius: 2rem;
     background: crimson;
     transition: all .5s ease-in-out;
 }
@@ -109,7 +109,7 @@ a {
 
 .main-home {
     min-height: 100vh;
-    max-width: 1140px;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
