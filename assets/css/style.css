@@ -29,9 +29,6 @@ html {
 body {
     font-family: var(--fontePadrao);
     font-size: 2rem;
-    background-image: url(../img/main-bg.svg);
-    background-size: cover;
-    background-position: center center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,8 +61,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo > p {
+    text-transform: uppercase;
     font-family: var(--fonteTitulo);
-    font-weight: 900;
+    font-weight: 700;
     font-size: 2.3rem;
 }
 
@@ -109,8 +107,11 @@ a {
 
 .main-home {
     min-height: 100vh;
-    max-width: 120rem;
-    margin: 0 auto;
+    margin-top: 4.7rem;
+    background-image: url(../img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+
 }
 
 
