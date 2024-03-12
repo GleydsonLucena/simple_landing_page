@@ -7,11 +7,10 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    justify-content: center;
     max-width: 120rem;
     height: auto;
+    max-width: 64rem;
     margin: 0 auto;
-    padding: 5rem 30rem;
 }
 
 .main-top3 > h2 {
