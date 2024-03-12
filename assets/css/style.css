@@ -33,11 +33,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--fonteTitulo);
-    font-weight: 900;
+    font-size: 6rem;
+    font-weight: 700;
 }
 
 .header-container {
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;

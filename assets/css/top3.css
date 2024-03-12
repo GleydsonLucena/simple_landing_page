@@ -1,0 +1,27 @@
+.top3-container {
+    background: #fff;
+    height: 100vh;
+}
+
+.main-top3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 120rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 5rem 25rem;
+}
+
+.main-top3 > h2 {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+    color: #0a1128;
+}
+
+.main-top3 > p {
+    margin-bottom: 3rem;
+    text-align: center;
+    line-height: 1.5;
+}

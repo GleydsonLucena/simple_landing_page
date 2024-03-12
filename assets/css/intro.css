@@ -1,5 +1,5 @@
 
-.main-intro {
+.intro-container {
     min-height: 100vh;
     margin-top: 4.7rem;
     background-image: url(../img/main-bg.svg);
@@ -7,7 +7,7 @@
     background-position: center center;
 }
 
-.intro-content {
+.main-intro {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 2rem;
@@ -26,10 +26,7 @@
 }
 
 .intro-text > h2 {
-    font-weight: 700;
-    font-size: 5rem;
     margin-bottom: 4rem;
-    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.315);
 }
 
 .intro-text > p {
@@ -44,5 +41,5 @@
 }
 
 .intro-img > img {
-    width: 60vw;
+    width: 50vw;
 }
