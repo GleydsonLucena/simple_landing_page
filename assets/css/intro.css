@@ -1,0 +1,48 @@
+
+.main-intro {
+    min-height: 100vh;
+    margin-top: 4.7rem;
+    background-image: url(../img/main-bg.svg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.intro-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 5rem 4rem;
+    height: 100vh;
+}
+
+.intro-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+.intro-text > h2 {
+    font-weight: 700;
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.315);
+}
+
+.intro-text > p {
+    text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.315);
+    line-height: 1.5;
+}
+
+.intro-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-img > img {
+    width: 60vw;
+}

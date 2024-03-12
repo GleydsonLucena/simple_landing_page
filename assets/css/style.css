@@ -53,14 +53,14 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     max-width: 120rem;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 1.5rem 3rem;
 }
 
 .logo {
     width: 20%;
 }
 
-.logo > p {
+.logo > h1 {
     text-transform: uppercase;
     font-family: var(--fonteTitulo);
     font-weight: 700;
@@ -105,14 +105,6 @@ a {
 
 }
 
-.main-home {
-    min-height: 100vh;
-    margin-top: 4.7rem;
-    background-image: url(../img/main-bg.svg);
-    background-size: cover;
-    background-position: center center;
-
-}
 
 
 
