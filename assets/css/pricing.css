@@ -1,0 +1,37 @@
+.main-table {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 7rem 4rem;
+}
+
+.table-responsive {
+    margin: 0 auto;
+    overflow: hidden;
+    overflow-x: scroll;
+    max-width: 50rem;
+}
+
+table {
+    min-width: 30rem;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 5rem auto;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+table td, table th {
+    
+    text-align: left;
+    border: 0.1rem solid lightgray;
+    padding: 1rem;
+}
+
+table th, tfoot {
+    background: lightgrey;
+}
