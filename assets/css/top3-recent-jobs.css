@@ -2,7 +2,7 @@
 .top3-jobs-container {
     min-height: auto;
     margin-top: 4.7rem;
-    background: url(../img/main-bg.svg) center center;
+    background: url(../img/main-bg.svg) fixed;
     background-size: cover;
 }
 

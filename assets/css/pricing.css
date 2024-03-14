@@ -1,7 +1,17 @@
 .main-table {
-    max-width: 120rem;
     margin: 0 auto;
-    padding: 7rem 4rem;
+    max-width: 60rem;
+    padding: 4rem 4rem;
+}
+
+.main-table h2{
+    text-align: center;
+    color: #0a1128;
+    margin: 5rem;
+}
+
+.main-table p {
+    text-align: center;
 }
 
 .table-responsive {

@@ -1,0 +1,35 @@
+.contact-container {
+    min-height: 100vh;
+    background: url(../img/main-bg.svg) fixed;
+    background-size: cover;
+}
+
+.main-contact {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 6rem 4rem;
+    color: #fff;
+}
+
+.contact-content {
+    display: flex;
+    gap: 5rem;
+}
+
+.content {
+    width: 50vw;
+    height: auto;
+}
+
+.content > h2 {
+    margin-bottom: 4rem;
+}
+
+.main-contact-img {
+    width: 50vw;
+}
+
+.main-contact-img img {
+    width: 100%;
+
+}

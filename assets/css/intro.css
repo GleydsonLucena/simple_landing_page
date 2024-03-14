@@ -2,9 +2,8 @@
 .intro-container {
     min-height: 100vh;
     margin-top: 4.7rem;
-    background-image: url(../img/main-bg.svg);
+    background: url(../img/main-bg.svg) fixed;
     background-size: cover;
-    background-position: center center;
 }
 
 .main-intro {
