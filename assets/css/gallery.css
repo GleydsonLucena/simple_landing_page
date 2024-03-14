@@ -1,0 +1,42 @@
+.gallery-container {
+    min-height: 100vh;
+}
+
+.main-gallery {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 7rem 3rem;
+    min-height: 100vh;
+}
+
+.tittle-gallery {
+    margin-bottom: 8rem;
+}
+
+.tittle-gallery > h2 {
+    color: #0a1128;
+    margin-bottom: 2rem;
+}
+
+.main-img {
+    display: grid;
+    max-width: 120rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img-container {
+    width: 100%;
+    max-width: 36rem;
+    max-height: 36rem;
+    overflow: hidden;
+}
+
+.img-container img {
+    transition: all 300ms ease-in-out;
+}
+
+.img-container img:hover {
+    transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+}
