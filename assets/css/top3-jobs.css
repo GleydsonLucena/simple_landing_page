@@ -1,7 +1,8 @@
 .top3-jobs-container {
-    height: 100vh;
+    height: auto;
     margin-top: 4.7rem;
-    background: url(../img/main-bg.svg) no-repeat cover;
+    background: url(../img/main-bg.svg) center center;
+    background-size: cover;
 }
 
 .main-top3-jobs {
@@ -13,8 +14,39 @@
     padding: 5rem 4rem;
 }
 
+.tittle-jobs {
+    margin-bottom: 4rem;
+}
+
 .tittle-jobs > h2 {
     padding-top: 4rem;
     margin-bottom: 2rem;
-    color: #0a1128;
+    color: #fff;
+}
+
+.tittle-jobs > p {
+    color: #fff;
+}
+
+.jobs-content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.jobs-content {
+   color: #fff;
+   padding: 2rem;
+}
+
+.jobs-content span {
+    font-size: 8rem;
+    transform: rotate(20deg);
+    margin-right: 2rem;
+    
+}
+
+.jobs-content h3 {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
 }
