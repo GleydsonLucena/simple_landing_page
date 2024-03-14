@@ -1,5 +1,5 @@
 .top3-jobs-container {
-    height: auto;
+    min-height: auto;
     margin-top: 4.7rem;
     background: url(../img/main-bg.svg) center center;
     background-size: cover;
@@ -9,7 +9,6 @@
     display: flex;
     flex-flow: column wrap;
     max-width: 120rem;
-    height: auto;
     margin: 0 auto;
     padding: 6rem 3rem;
 }
@@ -30,7 +29,8 @@
 
 .jobs-content-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 2rem;
 }
 
 .jobs-content {
