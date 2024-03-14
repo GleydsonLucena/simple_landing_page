@@ -1,0 +1,20 @@
+.top3-jobs-container {
+    height: 100vh;
+    margin-top: 4.7rem;
+    background: url(../img/main-bg.svg) no-repeat cover;
+}
+
+.main-top3-jobs {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 120rem;
+    height: auto;
+    margin: 0 auto;
+    padding: 5rem 4rem;
+}
+
+.tittle-jobs > h2 {
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    color: #0a1128;
+}
