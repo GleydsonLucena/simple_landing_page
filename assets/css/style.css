@@ -76,7 +76,7 @@ a {
 }
 
 .main-nav {
-    width: auto;
+    width: 55%;
     font-size: 1.8rem;
 }
 
@@ -89,7 +89,6 @@ a {
 
 .main-nav ul li a {
     position: relative;
-    margin-left: 2rem;
 }
 
 .main-nav ul li a::after {

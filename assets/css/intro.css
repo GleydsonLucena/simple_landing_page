@@ -14,7 +14,7 @@
     max-width: 120rem;
     margin: 0 auto;
     padding: 5rem 4rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro-text {
@@ -41,5 +41,6 @@
 }
 
 .intro-img > img {
-    width: 50vw;
+    max-width: 100%;
+    height: auto;
 }
