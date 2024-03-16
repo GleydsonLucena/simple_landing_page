@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+
+    .main-intro {
+        grid-template-columns: 1fr;
+    }
+    .jobs-content-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-content {
+        min-width: 100%;
+        flex-direction: column;
+    }
+
+    .content {
+        min-width: 100%;
+    }
+    .content {
+        min-width: 100%;
+    }
+
+    .main-contact-img {
+        width: 100%;
+    }
+    
+    .main-contact-img img {
+        width: 100%;
+    }
+}
+@media (max-width: 850px) {
+    .main-img {
+        grid-template-columns:  1fr 1fr;
+    }
+}
+@media (max-width: 667px) {
+    .main-img {
+        grid-template-columns:  1fr;
+    }
+
+    .img-container {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .img-container img {
+        width: 100%;
+        transition: all 300ms ease-in-out;
+    }
+}
+
