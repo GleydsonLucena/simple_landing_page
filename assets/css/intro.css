@@ -1,7 +1,6 @@
 
 .intro-container {
     min-height: 100vh;
-    margin-top: 4.7rem;
     background: url(../img/main-bg.svg) fixed;
     background-size: cover;
 }

@@ -5,9 +5,21 @@
     .main-nav {
             width: 60%;
     }
+
+    .intro-container {
+        min-height: 70vh;
+    }
+
+    .main-intro {
+        min-height: 70vh;
+    }
+
+    .main-intro h2 {
+        font-size: 4rem;
+    }
     
 }
-@media (max-width: 768px) {
+@media (max-width: 765px) {
     .main-nav {
         width: 60%;
     }
@@ -15,6 +27,7 @@
     .main-intro {
         grid-template-columns: 1fr;
     }
+
     .jobs-content-container {
         grid-template-columns: 1fr;
     }
@@ -44,6 +57,10 @@
         grid-template-columns:  1fr;
     }
 
+    h2 {
+         font-size: 4rem;
+    }
+
     .img-container {
         min-width: 100%;
         max-width: 100%;
@@ -56,7 +73,24 @@
 }
 
 @media (min-width: 350px) and (max-width: 665px) {
+    p {font-size: 1.6rem;}
 
+    .main-header, ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-header li {
+        padding: 0.5rem;
+
+    }
+
+    .main-nav {display: none;}
+
+    .logo {
+        align-self: flex-start;
+        margin-bottom: 0.5rem;
+    }
 }
 
 
