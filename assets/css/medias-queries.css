@@ -1,4 +1,16 @@
+@media (max-width: 850px) {
+    .main-img {
+        grid-template-columns:  1fr 1fr;
+    }
+    .main-nav {
+            width: 60%;
+    }
+    
+}
 @media (max-width: 768px) {
+    .main-nav {
+        width: 60%;
+    }
 
     .main-intro {
         grid-template-columns: 1fr;
@@ -27,11 +39,6 @@
         width: 100%;
     }
 }
-@media (max-width: 850px) {
-    .main-img {
-        grid-template-columns:  1fr 1fr;
-    }
-}
 @media (max-width: 667px) {
     .main-img {
         grid-template-columns:  1fr;
@@ -47,4 +54,9 @@
         transition: all 300ms ease-in-out;
     }
 }
+
+@media (min-width: 350px) and (max-width: 665px) {
+
+}
+
 
