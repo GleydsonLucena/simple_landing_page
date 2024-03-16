@@ -1,4 +1,8 @@
 @media (max-width: 850px) {
+    .intro-container {
+        margin-top: 2rem;
+    }
+
     .main-img {
         grid-template-columns:  1fr 1fr;
     }
@@ -17,7 +21,6 @@
     .main-intro h2 {
         font-size: 4rem;
     }
-    
 }
 @media (max-width: 765px) {
     .main-nav {
