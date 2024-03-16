@@ -87,11 +87,33 @@
         padding: 0.5rem;
     }
 
-    .main-nav {display: none;}
+    .intro-container {
+        position: relative;
+    }
+
+    .main-nav {
+        position: absolute;
+        display: none;
+        width: 40%;
+        top: 7rem;
+        right: 0;
+        padding: 1rem;
+        border-radius: 0 0 0 5rem;
+        background-color: #fff;
+    }
 
     .logo {
-        align-self: flex-start;
-        margin-bottom: 0.5rem;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #menu-hamb {
+        display: block;
+        cursor: pointer;
+        font-size: 4rem;
+        color: #0a1128;
     }
 }
 
