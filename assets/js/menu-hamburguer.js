@@ -1,8 +1,16 @@
 
-const navBar = document.getElementsByClassName('main-nav');
-const menu = document.querySelector("#menu-hamb");
+const mainMenu = document.getElementById("menu-hamb-main");
+const menu = document.getElementById("menu-hamb");
+
+menu.addEventListener("click", openMainMenu = () => {
+    if (mainMenu.style.display == "none") {
+        mainMenu.style.display = "flex"
+    } else {
+        mainMenu.style.display = "none"
+    }
+});
 
 
-menu.addEventListener("click", menuHamb=()=> {
-    navBar.style.display = "flex"
+mainMenu.addEventListener("click", msg = () => {
+    mainMenu.style.display = "none"
 })
