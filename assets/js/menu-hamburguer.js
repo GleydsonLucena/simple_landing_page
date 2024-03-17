@@ -12,5 +12,7 @@ menu.addEventListener("click", openMainMenu = () => {
 
 
 mainMenu.addEventListener("click", msg = () => {
-    mainMenu.style.display = "none"
+    if (window.screen.width < 768) {
+        mainMenu.style.display = "none"
+    }
 })

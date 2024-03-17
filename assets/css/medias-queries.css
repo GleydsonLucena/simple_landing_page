@@ -75,7 +75,7 @@
     }
 }
 
-@media (min-width: 350px) and (max-width: 665px) {
+@media (min-width: 320px) and (max-width: 665px) {
     p {font-size: 1.6rem;}
 
     .main-header, ul{
