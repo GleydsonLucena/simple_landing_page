@@ -1,17 +1,16 @@
-
+/* CSS DOS TOP 3*/
 
 .top3-container {
-    background: #fff;
     min-height: auto;
+    background: #fff;
 }
 
 .main-top3 {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    max-width: 120rem;
-    height: auto;
     max-width: 64rem;
+    height: auto;
     margin: 0 auto;
     padding: 6rem 3rem;
 }
@@ -23,7 +22,7 @@
 }
 
 .main-top3 > p {
-    margin-bottom: 3rem;
     text-align: center;
     line-height: 1.5;
+    margin-bottom: 3rem;
 }
