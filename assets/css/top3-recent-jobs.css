@@ -1,3 +1,5 @@
+/* CSS DOS TOP 3 JOBS */
+
 .recent-jobs-container,
 .top3-jobs-container {
     min-height: auto;
@@ -35,15 +37,14 @@
 }
 
 .jobs-content {
-   color: #fff;
-   padding: 2rem;
+    padding: 2rem;
+    color: #fff;
 }
 
 .jobs-content span {
     font-size: 8rem;
-    transform: rotate(20deg);
     margin-right: 2rem;
-    
+    transform: rotate(20deg);
 }
 
 .jobs-content h3 {
