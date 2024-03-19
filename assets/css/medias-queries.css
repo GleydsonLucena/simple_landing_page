@@ -1,3 +1,5 @@
+/* ESTILO DA SEÇÃO DE MEDIAS QUERIES */
+
 @media (max-width: 850px) {
     .intro-container {
         margin-top: 2rem;
@@ -23,6 +25,7 @@
     }
 }
 @media (max-width: 765px) {
+
     .main-nav {
         width: 60%;
     }
@@ -56,6 +59,7 @@
     }
 }
 @media (max-width: 667px) {
+
     .main-img {
         grid-template-columns:  1fr;
     }
@@ -76,6 +80,7 @@
 }
 
 @media (min-width: 320px) and (max-width: 665px) {
+
     p {font-size: 1.6rem;}
 
     .main-header, ul{
